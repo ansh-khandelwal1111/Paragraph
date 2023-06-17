@@ -128,7 +128,7 @@
         position: relative;
         top: -113px;
         margin: 0 auto;
-        margin-left: -53px;
+        margin-left: -63px;
         padding: unset;
     }
     .service .cont2 .em {
@@ -141,6 +141,7 @@ display: block;
         position: relative;
         top: -119px;
         margin: 0 auto;
+        left: -1px;
    }
    .service  .cont2 img{
     width: 95%;
