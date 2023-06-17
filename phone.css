@@ -58,7 +58,7 @@
     .about .detail {
         font-size: 11px;
         display: block;
-        width: 62%;
+        width: 95%;
         position: relative;
         /* padding: -10px; */
         bottom: -14px;
@@ -92,8 +92,8 @@
     }
 
     .service .con2 .cont {
-        font-size: 11px;
-        width: 88%;
+        font-size: 17px;
+        width: 95%;
         padding: 17px;
         position: relative;
         top: -66px;
