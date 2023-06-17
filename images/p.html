@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .containar {
+        background-color: aqua;
+        width: 100%;
+        height: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+       
+    }
+
+    .box{
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .box1 {
+        background-color: rgb(49, 81, 108);
+        animation: first 3s infinite;
+    }
+
+    .box2 {
+        background-color: rgb(185, 146, 95);
+        animation: second 3s infinite;
+    }
+
+    .box3 {
+        animation: third 3s infinite;
+        background-color: rgb(48, 61, 61);
+    }
+
+    .box4 {
+        background-color: rgb(29, 176, 127);
+        animation: fourth 3s infinite;
+    }
+@keyframes first {
+ 0%{
+    bottom: 0px;
+ }
+ 6.25%{
+    bottom: 25px;
+ }
+ 12.50%{
+    bottom: 0px;
+ }
+ 18.75%{
+    bottom:-25px
+ }
+ 25%{
+    bottom:0px
+ }
+ 
+}
+@keyframes second {
+    25%{
+    bottom: 0px;
+ }
+ 31.25%{
+    bottom: 25px;
+ }
+37.50%{
+    bottom: 0px;
+ }
+ 43.75%{
+    bottom:-25px
+ }
+ 50%{
+    bottom:0px
+ }
+}
+@keyframes third {
+    50%{
+    bottom: 0px;
+ }
+ 56.25%{
+    bottom: 25px;
+ }
+ 62.50%{
+    bottom: 0px;
+ }
+ 68.75%{
+    bottom:-25px
+ }
+ 75%{
+    bottom:0px
+ }
+}
+@keyframes fourth {
+    75%{
+    bottom: 0px;
+ }
+ 81.25%{
+    bottom: 25px;
+ }
+ 87.50%{
+    bottom: 0px;
+ }
+ 93.75%{
+    bottom:-25px
+ }
+ 100%{
+    bottom:0px
+ }
+}
+   
+</style>
+
+<body>
+    <div class="containar">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+           
+    </div>
+</body>
+
+</html>
