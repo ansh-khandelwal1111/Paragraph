@@ -58,7 +58,7 @@
     .about .detail {
         font-size: 11px;
         display: block;
-        width: 95%;
+        width: 64%;
         position: relative;
         /* padding: -10px; */
         bottom: -14px;
@@ -92,7 +92,7 @@
     }
 
     .service .con2 .cont {
-        font-size: 17px;
+        font-size: 16px;
         width: 95%;
         padding: 17px;
         position: relative;
@@ -131,4 +131,76 @@
         margin-left: -53px;
         padding: unset;
     }
+    .service .cont2 .em {
+display: block;
+    }
+   .service .cont2 .em .pm {
+    font-size: 17px;
+        width: 95%;
+        padding: 17px;
+        position: relative;
+        top: -119px;
+        margin: 0 auto;
+   }
+   .service  .cont2 img{
+    width: 95%;
+    height: 59%;
+    padding: 2px;
+    margin-top: -71px;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    margin-right: -40px;
+    /* border-color: #ff0a0a; */
+    border-radius: 39px;
+   }
+.contact .conta .left .subheading7 {
+    margin-left: 114px;
+    font-size: 25px;
+    margin-top: 46px;
+}
+.contact .conta .left .row .icon {
+    margin-left: 136px;
+    font-size: 29px;
+}
+.conta {
+    display: block;
+}
+.contact .conta .left .row .content0 {
+    font-size: 16px;
+}
+.contact .conta .right .subh {
+    margin-left: 114px;
+    font-size: 25px;
+    margin-top: -91px;
+}
+.contact .conta .right .input {
+    margin-left: 32px;
+    margin-top: 25px;
+    border-color: black;
+}
+.contact .conta .right .pnput {
+margin-left: 32px;
+margin-top: 3px;
+}
+.contact .conta .right .textarea {
+    margin-left: 32px;
+    margin-top: 3px;
+}
+.contact .conta .right .bbn {
+    margin-left: 32px;
+}
+.foot .has {
+    font-size: 13px;
+    color: blue
+}
+.foot {
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+height: 23px;
+}
+.fg {
+    height: 42px;
+}
 }
